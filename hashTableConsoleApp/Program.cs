@@ -23,10 +23,10 @@ namespace hashTableConsoleApp
             //Uygulama
             string secim=null;
             Hashtable sozluk = new Hashtable();
-            Console.WriteLine("Eklemek istediğiniz sözlük değerini yazınız");
            
             do
             {
+                Console.WriteLine("Eklemek istediğiniz sözlük değerini yazınız");
                 Console.Write("EN:");
                 string enter = Console.ReadLine();
                 bool kontrol = sozluk.Contains(enter);
