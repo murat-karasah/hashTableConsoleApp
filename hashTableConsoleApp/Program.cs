@@ -44,7 +44,7 @@ namespace hashTableConsoleApp
                      secim = Console.ReadLine();
                 }
             } while (secim=="E" || secim=="e");
-
+            //https://www.tutorialsteacher.com/csharp/csharp-hashtable
             foreach (DictionaryEntry de in sozluk)
                 Console.WriteLine("En: {0}, Tr: {1}", de.Key, de.Value);
 
